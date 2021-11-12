@@ -1,0 +1,138 @@
+h2 {
+    margin: 20px;
+    padding: 15px;
+}
+.navbar {
+background-color:rgb(251, 252, 253);
+display:flex;
+margin: -8px;
+padding: 15px;
+margin: -50px -100px -50px -10px;
+}
+.navbar-list {
+    list-style: none;
+    font-family: 'Crimson Pro', serif;
+font-size: 30px;
+display:flex;
+}
+.navbar-item {
+    color: rgb(64, 36, 128);
+    height:50px;
+    width: 150px;
+    text-align:right;
+    padding: 15px;
+}
+.background-color-blue {
+    background: linear-gradient(10deg,rgb(252, 203, 211),rgb(93, 93, 172));
+    margin: -9px;
+    display:flex;
+    flex-direction:row;
+}
+h8 {
+    display: block; 
+    font-family: 'Crimson Pro', serif;
+    padding: 100px;
+ }
+h1 {
+    padding: 10px;
+    font-size: 80px;
+    color: white;
+}
+.p1 {
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size:50px;
+}
+button {
+    color: rgb(95, 189, 165);
+    background-color:yellow;
+    font-family: 'Crimson Pro', serif;
+    font-size: 40px;
+    height:50px;
+    width: 170px;
+    box-shadow: -10px 10px 20px rgba(0,0,0,0.19);
+    border:yellow;
+    border-radius: 5px;
+}
+h3 {
+    margin: 50px -10px 50px -10px;
+    color: rgb(95, 189, 165);
+    font-size:80px;
+    text-align: center;
+    }
+.iconsPlace {
+    background-color:rgb(247, 231, 247);
+    margin: -50px -50px -50px -50px;
+}
+
+.iconsPlace-list {
+background-color: yellow;
+flex-direction: row;
+justify-content: center;
+padding:-10px;
+font-size: 50px;
+font-family: 'Crimson Pro', serif;
+
+}
+.ux {
+border-radius: 100px;
+border-width:-100px ;
+margin: 100px;
+font-size: 40px;
+
+
+}
+
+.design {
+border-radius: 100px;
+border-width:-100px ;
+margin: 100px;
+}
+.support {
+border-radius: 100px;
+border-width:-100px ;
+margin: 100px;
+
+}
+.inform {
+    background-color:rgb(38, 20, 88);
+    color: white;
+    margin: auto;
+    padding:20px;
+    
+    
+}
+.footer {
+    background-color:rgb(237, 233, 250);
+    margin:-15px;
+    padding:20px;
+}
+.frow {
+    display: flex;
+    flex-direction: row;
+    text-align:center;
+}
+.findme-list {
+    text-align:right;
+    display: block;
+    flex-direction: row;
+}
+.findme-item{
+    list-style: none; 
+    text-align:center;
+}
+h10 {
+    background: linear-gradient(10deg,rgb(252, 203, 211),rgb(93, 93, 172));
+    color:white;
+    margin: -10px;
+    padding:20px; 
+   display: block;
+   text-align:center;
+   font-weight:bold;
+   font-size:19px;
+}
+
+
