@@ -9,7 +9,7 @@
 background-color:rgb(251, 252, 253);
 display:flex;
 padding: 1px;
-margin: -1px;
+margin: -10px;
 
 
 }
@@ -17,7 +17,8 @@ margin: -1px;
     position: relative;
     list-style: none;
     font-family: 'Crimson Pro', serif;
-    font-size: 32px;
+    font-size: 20px;
+    font-weight:bold;
     display:flex;
     justify-content:flex-end;
     flex-basis: 50%;
@@ -32,18 +33,22 @@ margin: -1px;
     background: linear-gradient(10deg,rgb(252, 203, 211),rgb(93, 93, 172));
     display:flex;
     flex-direction: row;
-    padding: 33px;
+    gap:10%;
+    padding: 30px;
+    margin: -10px;
+    justify-content:space-between;
+    align-items:center;
+    line-height:-30%;
 }
 .headline {
-    font-size: 60px;
+    font-size: 49px;
     color: white;
     font-family: 'Crimson Pro', serif;
-    padding: 28px;
-    
+    margin: 27px;
 }
 .p1 {
     color: white;
-    font-size:40px;
+    font-size:30px;
     position:relative;
     
 }
@@ -58,12 +63,15 @@ margin: -1px;
     box-shadow: -10px 10px 20px rgba(0,0,0,0.19);
     border:yellow;
     border-radius: 5px;
-   position:relative;
-   left: 100px;
+    position:relative;
+    left: 100px;
+    top:19px;
    
 }
 .img1 {
-    position: relative;
+    height: 400px;
+    width:50%;
+    justify-content:right;
 }
 
 .body{
@@ -75,21 +83,22 @@ margin: -1px;
 .Subject {
     margin: 20px;
     color: rgb(95, 189, 165);
-    font-size:60px;
+    font-size:45px;
     text-align: center;
     }
 .product {
     background-color: rgb(246, 232, 255);  
     display:flex;
     flex-direction:row;
+    flex-wrap:wrap;
     margin:-1px;
     padding:28px;
+    gap: 30px;
+    justify-content:center;
 }
   .box-1 {
     background-color: rgb(252, 248, 248);
-    position: relative;
     
-    left: 50px;
     width: 270px;
     height: 290px;
     border-radius: 5px;
@@ -98,12 +107,6 @@ margin: -1px;
 
   .box-2 {
     background-color: rgb(252, 248, 248);
-    position: relative;
-    
-    top:0px;
-    right: 0px;
-    bottom:100px;
-    left: 110px;
     width: 270px;
     height: 290px;
     border-radius: 5px;
@@ -111,12 +114,6 @@ margin: -1px;
   }
   .box-3 {
     background-color: rgb(252, 248, 248);
-    position: relative;
-    
-    top:0px;
-    right: 00px;
-    bottom:200px ;
-    left:160px;
     width: 270px;
     height: 290px;
     border-radius: 5px;
@@ -128,7 +125,7 @@ margin: -1px;
     left:21px;
 }
 .text {
-    font-size:30px;
+    font-size:29px;
     font-family: 'Crimson Pro', serif;
     color:rgb(64, 36, 128);
     position: relative;
@@ -160,10 +157,10 @@ margin: -1px;
     
 }
 .pragraph1 {
-    line-height:19px;
+    line-height:23px;
 }
 .subtitle {
-    font-size:40px;
+    font-size:30px;
     color: rgb(95, 189, 165);
     font-weight: bold;
     
@@ -201,53 +198,52 @@ margin: -1px;
     position: relative;
     display: flex;
     flex-direction:row;
+    gap: 50px;
+    justify-content:space-evenly;
 }
 .sec1 {
     font-size:50px;
     font-weight: bold;
     display:flex;
-    position:relative;
-    top:100px;
-    left:10px;
+    margin: 39px;
 }
 .sec2 {
-    font-size:20px;
-    position: relative;
-    display:flex;
-    top:5px;
-    left:450px;
-    margin: -1px;
+    font-size:20px; 
+    margin: 19px;
+    padding:10px;
     line-height:19px;
+    
+
 }
 .textarea1{
-    width: 170px;
+    width: 46%;
     height: 40px;
     border-radius: 5px;
 }
 .textarea2{
-    width: 170px;
+    width: 46%;
     height: 40px;
     border-radius: 5px;
 }
 .textarea3 {
-    width: 351px;
+    width: 100%;
     height: 40px;
     border-radius: 5px;
 }
 .textarea4 {
-    width: 351px;
+    width: 100%;
     height: 40px;
     border-radius: 5px;
 }
 #thumbnail {
     border-radius: 5px;
-    width: 351px;
+    width: 100%;
     height: 80px;
     font-family: 'Crimson Pro', serif;
     font-size:20px;
 }
 .button2 {
-    width: 352px;
+    width: 100%;
     height: 40px;
     color:rgb(38, 20, 88);
     font-size:30px;
@@ -262,16 +258,18 @@ margin: -1px;
     position:relative;
     display:flex;
     font-family: 'Crimson Pro', serif;
+    font-size: 15px;
     margin: -1px;
     padding: 20px;
     background-color: rgb(246, 232, 255); 
     line-height:24px;
-    justify-content: space-evenly;
+    justify-content:space-around;
 }
 .imagee {
     position:relative;
-    right: 10px;
+    right: 8px;
     height: 130px;
+    width:70%;
 }
 .Website {
     position:relative;
@@ -289,14 +287,15 @@ position:relative;
     }
 .subtitlee {
     font-family: 'Crimson Pro', serif;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
     color: rgb(95, 189, 165);
 }
 .list {
     list-style: none;
     color:rgb(38, 20, 88);
-    font-size:25px;
+    font-size:19px;
+    
     display:flex;
     gap:5px;
 }
@@ -316,7 +315,7 @@ position:relative;
    font-weight:bold;
    font-size:19px;
 }
-@media (max-width: 1082px){
+@media (max-width: 775px){
     .navbar, .background-color-blue, .Subject, .product, .groups, .inform, .footer {
     float: none;
     margin: auto;
