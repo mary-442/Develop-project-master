@@ -1,106 +1,95 @@
 
 .logo {
-    margin: 20px;
-    padding: 15px;
-    width: 800px;
-    flex-basis: 50%;
+    margin: 1px;
+    padding: 10px;
+    flex-basis: 60%;
     justify-content:flex-start;
 }
 .navbar {
 background-color:rgb(251, 252, 253);
 display:flex;
-margin: -8px;
-padding: 15px;
-margin: -50px -50px -50px -50px;
-width: 450px;
+padding: 1px;
+margin: -1px;
+
 
 }
 .navbar-list {
     position: relative;
     list-style: none;
     font-family: 'Crimson Pro', serif;
-font-size: 30px;
-display:flex;
-justify-content:flex-end;
-gap:5px;
-flex-basis: 50%;
+    font-size: 32px;
+    display:flex;
+    justify-content:flex-end;
+    flex-basis: 50%;
 }
 .navbar-item {
     color: rgb(64, 36, 128);
-    height:50px;
-    width: 300px;
     text-align:right;
-    padding: 15px;
+    padding: 19px;
     justify-content:flex-end  space-evenly;
-    gap:1px;
-    
 }
 .background-color-blue {
     background: linear-gradient(10deg,rgb(252, 203, 211),rgb(93, 93, 172));
-    margin: -9px;
     display:flex;
-    flex-direction:row;
+    flex-direction: row;
+    padding: 33px;
 }
-h8 {
-    display: block; 
-    font-family: 'Crimson Pro', serif;
-    padding: 100px;
- }
-h1 {
-    padding: 10px;
-    font-size: 80px;
+.headline {
+    font-size: 60px;
     color: white;
+    font-family: 'Crimson Pro', serif;
+    padding: 28px;
+    
 }
 .p1 {
     color: white;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 0px;
-    padding-right: 0px;
-    font-size:50px;
+    font-size:40px;
+    position:relative;
+    
 }
-button {
+.button11 {
     color: rgb(95, 189, 165);
     background-color:yellow;
     font-family: 'Crimson Pro', serif;
     font-size: 40px;
+    font-weight: bold;
     height:50px;
-    width: 170px;
+    width: 250px;
     box-shadow: -10px 10px 20px rgba(0,0,0,0.19);
     border:yellow;
     border-radius: 5px;
+   position:relative;
+   left: 100px;
+   
+}
+.img1 {
+    position: relative;
 }
 
 .body{
     font-family: 'Crimson Pro', serif;
+    margin: -1px;
+    display:flex;
+    padding: 20px;
 }
-h3 {
-    margin: 50px -10px 50px -10px;
+.Subject {
+    margin: 20px;
     color: rgb(95, 189, 165);
-    font-size:80px;
+    font-size:60px;
     text-align: center;
     }
 .product {
     background-color: rgb(246, 232, 255);  
     display:flex;
-    padding-top:100px;
-    padding-right: 200px;
-    padding-bottom: 200px;
-    padding-left: 200px;
-    margin: -28px;
+    flex-direction:row;
+    margin:-1px;
+    padding:28px;
 }
-
-#box-container {
-    position: absolute;
-  }
-
   .box-1 {
     background-color: rgb(252, 248, 248);
     position: relative;
-    top:100px;
-    right:2000px;
-    bottom:00px ;
-    left: 00px;
+    
+    left: 50px;
     width: 270px;
     height: 290px;
     border-radius: 5px;
@@ -110,10 +99,11 @@ h3 {
   .box-2 {
     background-color: rgb(252, 248, 248);
     position: relative;
-    top:00px;
-    right: 200px;
-    bottom:900px ;
-    left: 400px;
+    
+    top:0px;
+    right: 0px;
+    bottom:100px;
+    left: 110px;
     width: 270px;
     height: 290px;
     border-radius: 5px;
@@ -121,11 +111,12 @@ h3 {
   }
   .box-3 {
     background-color: rgb(252, 248, 248);
-    position: absolute;
-    top:00px;
-    right: 100px;
-    bottom:2000px ;
-    left: 800px;
+    position: relative;
+    
+    top:0px;
+    right: 00px;
+    bottom:200px ;
+    left:160px;
     width: 270px;
     height: 290px;
     border-radius: 5px;
@@ -135,9 +126,6 @@ h3 {
     position: relative;
     top: 20px;
     left:21px;
-    
-    
-   
 }
 .text {
     font-size:30px;
@@ -157,96 +145,79 @@ h3 {
     top:51px;
     left:56px;
 }
+.groups {
+    background-color:white;
+    font-family: 'Crimson Pro', serif;
+    margin: -1px;
+    padding:28px;
+}
 .group1 {
-    position:relative;
+    position: relative;
     display:flex;
-
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction:row;
+    
 }
 .pragraph1 {
-    position:absolute;
-    left: 700px;
-    top: 100px;
     line-height:19px;
 }
 .subtitle {
     font-size:40px;
-    font-family: 'Crimson Pro', serif;
     color: rgb(95, 189, 165);
     font-weight: bold;
     
 }
 .textt {
     font-size:15px;
-    font-family: 'Crimson Pro', serif;
     color: rgb(64, 36, 128);
-}
-.image11 {
-    position:absolute;
-    left:200px;
-    top: 13px;
 }
 .group2 {
     position:relative;
     display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction:row;
 }
 .pragraph2 {
-    position:absolute;
-    left: 200px;
-    top: 590px;
     line-height:19px;
-}
-.image22 {
-    position:absolute;
-    left:820px;
-    top: 500px;
 }
 .group3{
     position:relative;
     display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction:row;
 }
 .pragraph3 {
-    position:absolute;
-    left: 700px;
-    top: 1050px;
     line-height:19px;
-}
-.image33 {
-    position:absolute;
-    left:150px;
-    top: 950px;
-}
-#boxcontainer {
-    display: flex;
-    flex-direction:row-reverse;
 }
 .inform {
     background-color:rgb(38, 20, 88);
     color: white;
-    margin: -10px;
-    padding:20px;   
-}
-.inform {
-    position:relative;
-    display:flex;
+    margin: -1px;
+    padding:20px; 
     font-family: 'Crimson Pro', serif;
+    position: relative;
+    display: flex;
+    flex-direction:row;
 }
 .sec1 {
-    color:rgb(255, 255, 255);
     font-size:50px;
-    font-family: 'Crimson Pro', serif;
     font-weight: bold;
-    position: relative;
+    display:flex;
+    position:relative;
     top:100px;
-    left:70px;
+    left:10px;
 }
 .sec2 {
-    color:rgb(255, 255, 255);
     font-size:20px;
-    font-family: 'Crimson Pro', serif;
     position: relative;
-    top:3px;
-    left:500px;
-    margin: -10;
+    display:flex;
+    top:5px;
+    left:450px;
+    margin: -1px;
+    line-height:19px;
 }
 .textarea1{
     width: 170px;
@@ -280,39 +251,41 @@ h3 {
     height: 40px;
     color:rgb(38, 20, 88);
     font-size:30px;
+    background-color:yellow;
+    font-family: 'Crimson Pro', serif;
+    font-weight: bold;
+    box-shadow: -10px 10px 20px rgba(0,0,0,0.19);
+    border:yellow;
+    border-radius: 5px;
 }
 .footer {
     position:relative;
     display:flex;
     font-family: 'Crimson Pro', serif;
-    margin: -10px;
-    padding: 66px;
+    margin: -1px;
+    padding: 20px;
     background-color: rgb(246, 232, 255); 
-    line-height:34px;
+    line-height:24px;
+    justify-content: space-evenly;
 }
 .imagee {
-    position:absolute;
-    left:15px;
-    top: 30px;
+    position:relative;
+    right: 10px;
     height: 130px;
 }
 .Website {
     position:relative;
-    left:450px;
-    top: 7px;
+    
     height: 130px;
 }
 .OurTerms {
 position:relative;
-    left:650px;
-    top: 7px;
+    
     height: 130px;
 }
 .FindUs {
     position:relative;
-        left:780px;
-        top: 7px;
-        height: 130px;
+    height: 130px;
     }
 .subtitlee {
     font-family: 'Crimson Pro', serif;
@@ -324,25 +297,27 @@ position:relative;
     list-style: none;
     color:rgb(38, 20, 88);
     font-size:25px;
-    gap:30px;
+    display:flex;
+    gap:5px;
 }
 .findme-item {
     color:rgb(38, 20, 88);
     float:left;
-    gap: 15px;
+    
 }
-h10 {
+.footer1 {
     background: linear-gradient(10deg,rgb(252, 203, 211),rgb(93, 93, 172));
     color:white;
-    margin: -10px;
+    margin: -1px;
     padding:20px; 
-   display: block;
+    display: block;
+    position: relative;
    text-align:center;
    font-weight:bold;
    font-size:19px;
 }
-@media (max-width: 1180px){
-    nav, background-color-blue, header, h1, body, button, h3, footer {
+@media (max-width: 1082px){
+    .navbar, .background-color-blue, .Subject, .product, .groups, .inform, .footer {
     float: none;
     margin: auto;
     }
