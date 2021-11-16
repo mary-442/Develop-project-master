@@ -1,16 +1,19 @@
-
+.container{
+    position:relative;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: -1px;
+margin: -10px;
+background-color:rgb(251, 252, 253);
+display:flex;
+}
 .logo {
     margin: 1px;
     padding: 10px;
-    flex-basis: 60%;
     justify-content:flex-start;
 }
 .navbar {
-background-color:rgb(251, 252, 253);
-display:flex;
-padding: 1px;
-margin: -10px;
-
 
 }
 .navbar-list {
@@ -21,7 +24,7 @@ margin: -10px;
     font-weight:bold;
     display:flex;
     justify-content:flex-end;
-    flex-basis: 50%;
+    
 }
 .navbar-item {
     color: rgb(64, 36, 128);
@@ -33,7 +36,7 @@ margin: -10px;
     background: linear-gradient(10deg,rgb(252, 203, 211),rgb(93, 93, 172));
     display:flex;
     flex-direction: row;
-    gap:10%;
+    flex-wrap:wrap;
     padding: 30px;
     margin: -10px;
     justify-content:space-between;
@@ -64,14 +67,13 @@ margin: -10px;
     border:yellow;
     border-radius: 5px;
     position:relative;
-    left: 100px;
+    left: 50px;
     top:19px;
    
 }
 .img1 {
-    height: 400px;
-    width:50%;
-    justify-content:right;
+    
+    width:320px;
 }
 
 .body{
@@ -151,33 +153,36 @@ margin: -10px;
 .group1 {
     position: relative;
     display:flex;
-    align-items: center;
     justify-content: space-evenly;
     flex-direction:row;
-    
+    flex-wrap:wrap;
 }
 .pragraph1 {
-    line-height:23px;
+    line-height:14px;
+    text-align: justify;
+
 }
 .subtitle {
-    font-size:30px;
+    font-size:23px;
     color: rgb(95, 189, 165);
     font-weight: bold;
-    
+    text-align: justify;
 }
 .textt {
-    font-size:15px;
+    font-size:12px;
     color: rgb(64, 36, 128);
+    text-align: justify;
 }
 .group2 {
     position:relative;
     display:flex;
     align-items: center;
     justify-content: space-evenly;
-    flex-direction:row;
+    flex-direction:row-reverse;
+    flex-wrap:wrap;
 }
 .pragraph2 {
-    line-height:19px;
+    line-height:14px;
 }
 .group3{
     position:relative;
@@ -185,9 +190,10 @@ margin: -10px;
     align-items: center;
     justify-content: space-evenly;
     flex-direction:row;
+    flex-wrap:wrap;
 }
 .pragraph3 {
-    line-height:19px;
+    line-height:14px;
 }
 .inform {
     background-color:rgb(38, 20, 88);
@@ -257,33 +263,42 @@ margin: -10px;
 .footer {
     position:relative;
     display:flex;
+    flex-wrap: wrap;
     font-family: 'Crimson Pro', serif;
     font-size: 15px;
-    margin: -1px;
-    padding: 20px;
     background-color: rgb(246, 232, 255); 
     line-height:24px;
-    justify-content:space-around;
+    justify-content:space-between;
+}
+.inn{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin:20px;
 }
 .imagee {
     position:relative;
-    right: 8px;
     height: 130px;
     width:70%;
 }
+.outt{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    flex-wrap:wrap;
+    margin: 30px;
+}
 .Website {
     position:relative;
-    
-    height: 130px;
+    font-size:50px;
 }
 .OurTerms {
 position:relative;
     
-    height: 130px;
+    
 }
 .FindUs {
     position:relative;
-    height: 130px;
     }
 .subtitlee {
     font-family: 'Crimson Pro', serif;
@@ -295,9 +310,7 @@ position:relative;
     list-style: none;
     color:rgb(38, 20, 88);
     font-size:19px;
-    
-    display:flex;
-    gap:5px;
+    gap:10px;
 }
 .findme-item {
     color:rgb(38, 20, 88);
